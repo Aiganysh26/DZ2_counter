@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.number{
+  margin-bottom: 10px;
+}
+button{
+  border: 1px rgb(246, 110, 201) solid;
+  width: 100px;
+  height: 50px;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
